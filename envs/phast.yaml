@@ -1,0 +1,9 @@
+name: msa_phast
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - phast=1.5
+ - raxml=8.2.4
+ - gerp=2.1

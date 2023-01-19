@@ -1,0 +1,8 @@
+name: msa_split
+channels:
+ - conda-forge       
+ - bioconda
+ - defaults
+dependencies:
+ - pyfasta=0.5.2
+ - python=3.8

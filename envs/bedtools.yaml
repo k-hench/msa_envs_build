@@ -1,0 +1,8 @@
+name: msa_bedtools
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - bedtools=2.30.0
+ - bedops=2.4.39

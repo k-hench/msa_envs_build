@@ -1,0 +1,7 @@
+name: msa_roast
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - multiz=11.2

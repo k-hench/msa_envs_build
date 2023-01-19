@@ -1,0 +1,7 @@
+name: msa_mashtree
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - mashtree=1.2.0

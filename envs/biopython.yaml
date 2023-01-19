@@ -1,0 +1,8 @@
+name: msa_biotools
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - biopython=1.79
+ - trimal=1.4.1
