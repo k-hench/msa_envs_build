@@ -47,7 +47,7 @@ To make the container publicly available, it is pushed to [dockerhub](https://hu
 
 ```sh
 skopeo login -u khench docker.io
-podman push localhost/msa_envs docker.io/khench/msa_envs:v0.1
+podman push localhost/msa_envs docker.io/khench/msa_envs:v0.1.1
 ```
 
 ## Accessing the container

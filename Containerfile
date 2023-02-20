@@ -26,3 +26,6 @@ RUN mamba env create -f /roast.yaml && conda clean -a
 RUN mamba env create -f /split.yaml && conda clean -a
 RUN mamba env create -f /ucsc.yaml && conda clean -a
 # ENV PATH ${PATH}:/miniconda/envs/msa_envs-0.1/bin
+
+# Initialize conda in bash config fiiles:
+RUN conda init bash
