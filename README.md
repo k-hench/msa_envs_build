@@ -55,5 +55,5 @@ podman push localhost/msa_envs docker.io/khench/msa_envs:v0.1.1
 The bundled software can be accessed directly from [dockerhub](https://hub.docker.com/r/khench/msa_envs) with `podman` (or `docker`, or `singularity`):
 
 ```sh
-podman shell docker.io/khench/msa_envs:v0.1
+podman shell docker.io/khench/msa_envs:v0.1.1
 ```
